@@ -1,0 +1,72 @@
+body
+{
+    background-color: black;
+}
+.header
+{
+width: cal(100%-80px);
+position: relative;
+padding: 40px;
+}
+.logo
+{
+width: 404px;
+height: 138px;
+background-image: url(../photo/logo.jpg);
+    background-repeat: no-repeat;
+}
+.menu
+{
+position: absolute;
+right: 40px;
+top: 40px;
+}
+.menuitem
+{
+ color:white;
+ font-size: 24px;
+ font-family: Tahoma;
+ display: inline-block;
+ margin-left: 20px;
+}       
+.game
+{
+ margin: 50px;
+ width: 350px;
+ background-color: aqua;
+ border-radius: 40px;
+ transition: all 0.25s;
+ display: inline-block;
+}
+.game:hover
+{
+box-shadow: 0px 0px 50px white;
+transform: scale(1.05);
+}
+.gamelogo
+{
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+  border-radius: 25px 25px 0px 0px;
+  background-position: center;
+}
+.gameinfo
+{
+background-color: grey;
+border-radius: 0px 0px 25px 25px;
+text-align: center;
+font-family: Tahoma;
+padding: 15px 0px 15px 0px;
+}
+.gametitle
+{
+font-size: 25px;
+color: white;
+margin: 0px 0px 10px 0px;
+}
+.gamedescription
+{
+font-size: 22px;
+color: white;
+}
